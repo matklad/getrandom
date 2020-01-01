@@ -127,7 +127,6 @@
     html_favicon_url = "https://www.rust-lang.org/favicon.ico",
     html_root_url = "https://rust-random.github.io/rand/"
 )]
-#![no_std]
 #![cfg_attr(feature = "stdweb", recursion_limit = "128")]
 #![warn(rust_2018_idioms, unused_lifetimes, missing_docs)]
 
